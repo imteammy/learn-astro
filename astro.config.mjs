@@ -12,7 +12,7 @@ import netlify from '@astrojs/netlify';
 
 // https://astro.build/config
 export default defineConfig({
-  // site: 'https://example.com',
+  site: 'https://effulgent-syrniki-1b536e.netlify.app',
   integrations: [react(), mdx(), sitemap(), tailwind()],
   adapter: netlify({
     edgeMiddleware: true
